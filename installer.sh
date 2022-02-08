@@ -6,7 +6,7 @@ echo "==========================================================================
 echo "         install picon-All-Sat    "
 cd /tmp
 set -e 
-wget "https://drive.google.com/uc?id=1PoPtHu6CUu6fzqRs_lh5mpeVcXmdUkTO&export=download"
+wget"https://drive.google.com/uc?id=1PoPtHu6CUu6fzqRs_lh5mpeVcXmdUkTO&export=download"
 wait
 tar -xzf picon-all-sat.tar.gz  -C /
 wait
@@ -29,6 +29,7 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
 
